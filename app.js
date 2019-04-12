@@ -25,10 +25,12 @@ function pickImgRight() {
 function display () {
     if (randomNumber1 > randomNumber2) {
         mainHeader.innerHTML = "Player 1 Wins!";
+        leftDice.classList.add("blue-glow");
     }else if (randomNumber1 < randomNumber2) {
         mainHeader.innerHTML = "Player 2 Wins!";
+        rightDice.classList.add("blue-glow");
     }else {
-        mainHeader.innerHTML = "It is a draw, refresh the page please!"
+        mainHeader.innerHTML = "It is a draw!"
     }
 }
 
