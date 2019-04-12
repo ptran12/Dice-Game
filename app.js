@@ -31,6 +31,8 @@ function display () {
         rightDice.classList.add("blue-glow");
     }else {
         mainHeader.innerHTML = "It is a draw!"
+        leftDice.classList.add("blue-glow");
+        rightDice.classList.add("blue-glow")
     }
 }
 
